@@ -1,0 +1,19 @@
+{
+  "figure_1": "C:\\Users\\gjm31\\OneDrive\\Escritorio\\116 avo art\\evidence_buee_20260509\\verified_publication_figures\\figure_1_verified_force_ratio.png",
+  "figure_2": "C:\\Users\\gjm31\\OneDrive\\Escritorio\\116 avo art\\evidence_buee_20260509\\verified_publication_figures\\figure_2_verified_displacement_ratio.png",
+  "eta_range": [
+    0.0,
+    2.0
+  ],
+  "spectral_slope_range": [
+    -3.0,
+    1.0
+  ],
+  "damping_gain": 0.0,
+  "force_formula": "Rv = (sqrt(1 + eta))**n",
+  "displacement_formula": "Rd = (1 + eta) * Rv",
+  "chatgpt_image_screening": {
+    "accepted_for_replacement": false,
+    "reason": "Generated force-ratio heatmap inverted the validated benchmark pattern."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model": "dimensionless SDOF screening model",
+  "eta_values": [
+    0.0,
+    2.0,
+    21
+  ],
+  "spectral_slope_values": [
+    -3.0,
+    1.0,
+    21
+  ],
+  "damping_gain_values": [
+    0.0,
+    0.05,
+    0.1,
+    0.15
+  ],
+  "grid_points": 1764,
+  "force_ratio": "Rv = (sqrt(1+eta))**n * max(0.45, 1 - damping_gain*eta/(1+eta))",
+  "displacement_ratio": "Rd = (1+eta)*Rv"
+}

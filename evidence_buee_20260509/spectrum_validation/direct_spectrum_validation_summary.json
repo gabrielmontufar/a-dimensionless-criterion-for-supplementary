@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "code_spectrum": "normalized code-compatible idealized spectrum",
+    "elcentro": "Vibrationdata El Centro file elcentro.dat; acceleration in g",
+    "elcentro_EW": "Vibrationdata El Centro file elcentro_EW.dat; acceleration in g",
+    "elcentro_NS": "Vibrationdata El Centro file elcentro_NS.dat; acceleration in g"
+  },
+  "total_cases": 7680,
+  "classification_accuracy_percent": 82.09635416666667,
+  "mean_abs_force_ratio_error": 0.17446045883158634,
+  "max_abs_force_ratio_error": 0.896413156273523,
+  "force_beneficial_percent": 90.75520833333333,
+  "total_displacement_beneficial_percent": 30.143229166666668,
+  "mixed_force_benefit_displacement_penalty_percent": 60.611979166666664,
+  "notes": "Direct spectral validation uses one normalized code-compatible spectrum and three public El Centro Vibrationdata records/components."
+}

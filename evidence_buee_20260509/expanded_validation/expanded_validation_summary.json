@@ -1,0 +1,20 @@
+{
+  "total_cases": 30720,
+  "sources_total": 16,
+  "synthetic_spectrum_sources": 12,
+  "public_record_or_code_sources": 4,
+  "classification_accuracy_percent": 93.61979166666667,
+  "mean_abs_force_ratio_error": 0.06346563184859698,
+  "max_abs_force_ratio_error": 0.896413156273523,
+  "error_lt_0_10_percent": 79.91536458333333,
+  "error_lt_0_15_percent": 86.03515625,
+  "error_lt_0_20_percent": 89.794921875,
+  "error_lt_0_25_percent": 92.08984375,
+  "confusion_counts": {
+    "force_benefit_displacement_benefit": 8275,
+    "force_benefit_displacement_penalty": 20180,
+    "force_penalty_displacement_benefit": 0,
+    "force_penalty_displacement_penalty": 2265
+  },
+  "notes": "Expanded suite combines 12 synthetic code-compatible spectral shapes with the direct public-record/code-spectrum validation already generated. Synthetic spectra are declared as reproducible stress tests, not as real ground-motion records."
+}
