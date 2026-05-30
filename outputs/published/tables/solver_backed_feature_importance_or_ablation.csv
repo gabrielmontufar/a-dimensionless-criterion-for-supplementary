@@ -1,0 +1,6 @@
+feature_family,included,role
+centroid_classifier,yes,leave-study-out class prediction in solver-generated feature space
+solver_lambda_and_RV,yes,period-shift and force-ratio proxy
+solver_Rdelta_total,yes,displacement penalty proxy
+solver_rotation_ratio,yes,safe-release guardrail
+observed_response,no,withheld until scoring

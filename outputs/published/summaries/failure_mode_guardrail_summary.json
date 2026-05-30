@@ -1,0 +1,31 @@
+{
+  "experiment": "failure_mode_guardrails",
+  "isolated_from_submission_workflow": false,
+  "n_cases": 650,
+  "false_safe_cases": 13,
+  "main_false_safe_region": {
+    "median_lambda": 1.0173913043478262,
+    "median_RV": 0.58,
+    "median_margin": 0.4451663934285285,
+    "dataset_mix": {
+      "FoRDy": 10,
+      "FoRCy": 3
+    }
+  },
+  "no_guardrail": {
+    "released_cases": 42,
+    "false_safe_rate_all_cases": 0.02,
+    "true_safe_released": 29
+  },
+  "best_guardrail": {
+    "rule": "release_low_margin",
+    "abstention_rate": 0.038461538461538464,
+    "released_after": 17,
+    "false_safe_after": 0,
+    "false_safe_rate_after_all_cases": 0.0,
+    "false_safe_reduction": 1.0,
+    "safe_release_retention": 0.5862068965517241,
+    "cost_per_false_safe_removed": 1.9230769230769231
+  },
+  "claim_boundary": "Empirical guardrail discovery for safer screening only; not nonlinear 3D SSI validation."
+}

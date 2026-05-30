@@ -1,0 +1,7 @@
+input,status,reason
+lambda_hat,allowed,available before response scoring
+n_s_hat,allowed,available before response scoring
+PGA_B,allowed,available before response scoring
+PGV_B,allowed,available before response scoring
+Ia_B,allowed,available before response scoring
+study_group,allowed,available before response scoring

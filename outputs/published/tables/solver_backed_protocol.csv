@@ -1,0 +1,6 @@
+item,value
+solver,"OpenSeesPy 3.8.0, 3D ndm=3 ndf=6 elastic column plus horizontal foundation spring"
+input_leakage_control,"uses geometry, T_0 and ground-motion descriptors; observed force, rotation, drift and settlement are withheld until scoring"
+split,leave FoRDy Project Title out
+allowed_claim,3D solver-backed predictive class validation
+forbidden_claim,full nonlinear 3D response-history validation

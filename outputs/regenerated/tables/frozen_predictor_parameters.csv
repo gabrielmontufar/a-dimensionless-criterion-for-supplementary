@@ -1,0 +1,5 @@
+parameter,value
+features,lambda_hat;n_s_hat;PGA_B;PGV_B;Ia_B
+safe_margin_threshold,0.3
+detrimental_margin_threshold,1.3
+split,leave Project Title out

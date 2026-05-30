@@ -1,0 +1,7 @@
+input,status,reason
+R_V observed,forbidden,observed response leakage
+maxM,forbidden,observed response leakage
+pkRot,forbidden,observed response leakage
+pkDR,forbidden,observed response leakage
+resSet,forbidden,observed response leakage
+observed_class,forbidden,observed response leakage

@@ -1,0 +1,19 @@
+Properties of soils used in this FLIQ database,,,,,,,,,,,,,,,,,,
+,,,,,,Specific Gravity,Min void ratio,Max void ratio,Min dry unit weight,max dry unit wt,,,Coef of uniformity,Coef of curvature,Grain size,Grain size,Grain size,Grain size
+  Ds Rec Id,Material,Description,Resource S ,Test - cross reference to column 4 of FLIQ Spreadsheet,Method,Gs,Emin,Emax,Gmin  Kn M3 ,Gmax  Kn M3 ,Permeability  K  Cm S ,  % Fines,Cu,Cc,D10  Mm ,D30  Mm ,D50  Mm ,D60  Mm 
+1,Nevada Sand,"Fine, uniform, angular, sand",Balakrishnan (1997),,,,0.55,0.84,14.21,16.92,,,,,,,,
+2,Nevada Sand,"Fine, uniform, angular, sand",Woodward Clyde (1997),,,,0.56,0.87,13.97,16.75,,,,,,,,
+3,Nevada Sand,"Fine, uniform, angular, sand",Arulmoli et al. (1992),,,2.67,0.511,0.887,13.87,17.33,,,,,,,,
+4,Nevada Sand,"Fine, uniform, angular, sand",Dashti (2009),"T6-30, T3-30",,2.67,0.533,0.888,13.98,17.02,1.70E-03,,1.67,,,,0.14-0.17,
+5,Nevada Sand,"Fine, uniform, angular, sand",Dashti (2009),T3-50-SILT,,,,,14.47,17.05,1.70E-03,,1.67,,,,0.14-0.17,
+6,Nevada Sand,"Fine, uniform, angular, sand",Dashti (2009),T3-50,,2.65,0.52,0.78,14.57,17.05,"0.0066 (DR=40%), 0.0023 (DR=90%)",,,,,,,
+7,Nevada Sand,"Fine, uniform, angular, sand",Kammerer et al. (2000),,,2.67,0.533,0.888,13.87,17.09,,,,,,,,
+8,Nevada Sand,"Fine, uniform, angular, sand",Seiji Kano (2007),,,,0.49,0.79,14.5,17.5,,,,,,,,
+9,Nevada Sand,"Fine, uniform, angular, sand",Cooper Laboratory Testing (2007),,,2.64,0.52,0.78,14.47,17.05,,3.3,1.97,0.98,0.0947,0.132,0.167,0.186
+10,Nevada Sand,"Fine, uniform, angular, sand",Cooper Laboratory Testing (2008),,,2.65,0.51,0.75,14.87,17.21,,2.8,2.26,1.01,0.0907,0.137,0.18,0.205
+11,Nevada Sand,"Fine, uniform, angular, sand",Cooper Laboratory Testing (2010),"T3.9-50, T2.5-55, T2.3-70, T4.5-50, T4.6-40",,2.66,0.516,0.774,14.64,17.17,,6.7,2.07,0.87,0.0787,0.106,0.13,0.163
+12,Monterey Sand,"uniform, coarse, sand",Wu (1999),,Dry Tipping,2.64,0.541,0.855,13.96,16.81,,,,,,,,
+13,Monterey Sand,"uniform, coarse, sand",Nova-Roessing (1998),,Modified Japanese,,0.53,0.83,14.15,16.93,,,,,,,,
+14,Monterey Sand,"uniform, coarse, sand","Dashti (2009), Zupan et al. (2013), Hayden et al. (2014)","T6-30, T3-30, T3-50-SILT, T3-50, T4.5-50, T4.6-40",,2.64,0.536,0.843,14.06,16.86,,,1.3,,,,0.4,
+15,Silica Flour,non-plastic silty material,Malvick et al. (2005),T3-50-SILT,,2.66,,,,,3.00E-08,,,,,,0.02,
+16,Aquarium Gravel,"coarse, gravel",Allmond & Kutter (2012),T3.9-50,Funnel,2.65,0.479,0.7,15.33,17.57,,,,,,,2.67,

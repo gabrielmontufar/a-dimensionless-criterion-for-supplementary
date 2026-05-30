@@ -1,0 +1,7 @@
+"Claim needed for screening","Existing guidance","FE/SSI simulations","Rocking databases","This paper"
+"Closed force/displacement boundary","No","No","No","Yes"
+"Spectral slope window","No","Implicit","No","Yes"
+"False-safe metric","No","Rare","No","Yes"
+"Robust/marginal classification","No","Case-specific","No","Yes"
+"Experimental proxy class audit","No","No","Data only","Yes"
+"Reproducible scripts/hashes","No","Rare","Data only","Yes"

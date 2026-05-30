@@ -1,0 +1,26 @@
+model,metric,estimate,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,bootstrap_reps,resampling_unit
+always_mixed,accuracy,0.396907216495,0.262195121951,0.583333333333,10000,FoRDy study_group
+always_mixed,balanced_accuracy,0.333333333333,0.333333333333,0.333333333333,10000,FoRDy study_group
+always_mixed,false_safe_rate,0,0,0,10000,FoRDy study_group
+always_mixed,mixed_recall,1,1,1,10000,FoRDy study_group
+always_mixed,safe_precision,1,1,1,10000,FoRDy study_group
+flexibility_only,accuracy,0.367231638418,0.211111111111,0.596899224806,10000,FoRDy study_group
+flexibility_only,balanced_accuracy,0.306354775828,0.214008859358,0.452165055667,10000,FoRDy study_group
+flexibility_only,false_safe_rate,0.0564971751412,0,0.140703517588,10000,FoRDy study_group
+flexibility_only,mixed_recall,0.76,0.6,0.983333333333,10000,FoRDy study_group
+flexibility_only,safe_precision,0.285714285714,0.25,1,10000,FoRDy study_group
+majority_class,accuracy,0.335051546392,0.214285714286,0.472049689441,10000,FoRDy study_group
+majority_class,balanced_accuracy,0.285908121729,0.212561663143,0.333333333333,10000,FoRDy study_group
+majority_class,false_safe_rate,0,0,0,10000,FoRDy study_group
+majority_class,mixed_recall,0.753246753247,0.296296296296,1,10000,FoRDy study_group
+majority_class,safe_precision,1,1,1,10000,FoRDy study_group
+proposed_predictive_centroid,accuracy,0.541237113402,0.410714285714,0.660606060606,10000,FoRDy study_group
+proposed_predictive_centroid,balanced_accuracy,0.538701298701,0.396831683168,0.578703703704,10000,FoRDy study_group
+proposed_predictive_centroid,false_safe_rate,0.0567010309278,0.00558659217877,0.14,10000,FoRDy study_group
+proposed_predictive_centroid,mixed_recall,0.896103896104,0.767123287671,0.987951807229,10000,FoRDy study_group
+proposed_predictive_centroid,safe_precision,0.765957446809,0.461538461538,0.954545454545,10000,FoRDy study_group
+spectral_slope_only,accuracy,0.401129943503,0.246913580247,0.56,10000,FoRDy study_group
+spectral_slope_only,balanced_accuracy,0.422222222222,0.332995780591,0.484102564103,10000,FoRDy study_group
+spectral_slope_only,false_safe_rate,0.418079096045,0.0785340314136,0.728395061728,10000,FoRDy study_group
+spectral_slope_only,mixed_recall,0.466666666667,0.0579710144928,0.928571428571,10000,FoRDy study_group
+spectral_slope_only,safe_precision,0.327272727273,0.1875,0.583333333333,10000,FoRDy study_group

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Demand-Polarity Map reproducibility package"
+message: "If you use this package, cite the associated manuscript and this archived reproducibility release."
+type: dataset
+version: "demand_polarity_map_v40_submission_reproducible"
+repository-code: "https://github.com/gabrielmontufar/a-dimensionless-criterion-for-supplementary"
+license: "MIT"
+authors:
+  - family-names: "Montufar"
+    given-names: "Gabriel"

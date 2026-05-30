@@ -1,0 +1,81 @@
+P E R F O R M A N C E     D A T A B A S E     C O L U M N    D E F I N I T I O N S,,,,
+,COLUMN,,TYPE,DEFINITION
+EVENT,1,Event Id,Info,Dataset event number
+,2,Event Id,Info,T [initial liquefiable layer thickness (m)] - [initial liquefiable layer Dr (%)] - [additional parameter] - [Event sequence number in test] - [Structure or Free-Field]
+,3,Researcher,Info,[Lead researcher running the test][test number in the test series]
+,4,Test,Info,Test nomenclature: T [initial liquefiable layer thickness (m)] - [initial liquefiable layer Dr (%)] - [additional distinctive parameters]
+,5,Struct,Info,Name of structure or Free-Field (FF) in the event
+,6,Nscale,Meas,Average scaling factor achieved during spin-up
+SOIL PROPERTIES,7,Visc  ,Meas,Viscosity of the pore fluid used in the model; measured before testing starts; held constant throughout testing
+,8,Water  ,Meas,Average depth to water (+) or elevation (-) measured relative to the soil surface in the event
+,9,Mat L1,Info,Material type used for the construction of Layer 1
+,10,H L1 ,Meas,Initial prototype thickness of Layer 1
+,11,Dr L1,Infe,Initial nominal Relative Density (DR) of Layer 1
+,12,Mat L2,Info,Material type used for the construction of Layer 2
+,13,H L2 ,Meas,Initial prototype thickness of Layer 2
+,14,Dr L2,Infe,Initial Relative Density (DR) of Layer 2
+,15,Mat L3,Info,Material type used for the construction of Layer 3
+,16,H L3 ,Meas,Initial prototype thickness of Layer 3
+,17,Dr_L3,Infe,Initial Relative Density (DR) of Layer 3
+,18,Mat_L4,Info,Material type used for the construction of Layer 4
+,19,H_L4 ,Meas,Initial prototype thickness of Layer 4
+,20,Dr_L4,Infe,Initial Relative Density (DR) of Layer 4
+,21,Curvedsurf,Info,Is the surface of the soil curved to match centrifuge g-field radius?
+STRUCTURAL PROPERTIES,22,W ,Meas,Width of the structural footing (running N-S in the container)
+,23,L ,Meas,Length of the structural footing (running E-W in the container)
+,24,T ,Meas,Thickness of the footing
+,25,H ,Meas,Height of the structure from the bottom of the footing to the top of the deck
+,26,H_Cm ,Meas,Height from the base of the footing to the center of mass of the entire structure
+,27,H_Cd  ,Meas,Height from the base of the footing to the center of mass of the deck mass
+,28,M_Struct  ,Meas,Mass of the full structure
+,29,M_Deck ,Meas,Mass of the deck
+,30,M_Col  ,Meas,Mass of the columns
+,31,M_Foot ,Meas,Mass of the footing
+,32,Embed ,Meas,Initial footing embedment depth; measured from the soil surface to the bottom of the footing
+,33,Q ,Deri,Bearing pressure of structure: total structural weight over the footing area
+,34,T_Fb ,Meas,Fixed-base period of the structure; measured before testing
+,35,Modification,Info,"Ground modification: ground improvement, adjacent buildings, piles, etc."
+BASE MOTION,36,Motion,Info,Name and relative size of the input motion
+,37,Amp,Meas,Amplification factor imposed on the input motion file
+,38,IF ,Meas,Input motion frequency
+,39,RPM,Meas,Revolutions per minute of the centrifuge bucket during the event
+,40,PBA,Meas,Peak Base Acceleration: base plate peak acceleration on the centrifuge 
+,41,PBV,Deri,Peak Base Velocity: base plate peak velocity derived from integration of the base acceleration-time history with a high pass filter and corner frequency of 0.2Hz.
+,42,CAV5  ,Deri,Cumulative Absolute Velocity: measure of ground motion intensity calculated by the time-integral of the absolute acceleration-time series over a threshold of 0.005g
+,43,CAVstd ,Deri,Cumulative Absolute Velocity: measure of ground motion intensity calculated by the time-integral of the absolute acceleration-time series over a threshold of 0.025g
+,44,Ia_s ,Deri,Arias Intensity: measure of ground motion intensity calculated by the time-integral of the square of the acceleration time history
+,45,SIR ,Deri,Shaking Intensity Rate: measure of ground motion intensity calculated by summing the Arias Intensity (5-75%) over the duration (5-75%) of the motion
+,46,cCAV5 ,Deri,Cumulative CAV5 up to and including the event
+,47,cCAVstd  ,Deri,Cumulative CAVstd up to and including the event
+,48,cIa ,Deri,Cumulative Ia up to and including the event
+SURFACE MOTION,49,PGA_s 1  ,Meas,Maximum acceleration measured by surface accelerometer #1
+,50,PGA_s 2  ,Meas,Maximum acceleration measured by surface accelerometer #2
+,51,PGA_s 3  ,Meas,Maximum acceleration measured by surface accelerometer #3
+,52,PGA_s 4  ,Meas,Maximum acceleration measured by surface accelerometer #4
+,53,Acc No,Info,Surface accelerometer number used for surface motion analysis
+,54,PGV_s ,Deri,Peak Ground Velocity: peak velocity derived from integration of the acceleration time history with a high pass filter and corner frequency of 0.2Hz.
+,55,CAV5_s,Deri,Cumulative Absolute Velocity: measure of ground motion intensity calculated by the time-integral of the absolute acceleration-time series over a threshold of 0.005g
+,56,CAVstd_s  ,Deri,Cumulative Absolute Velocity: measure of ground motion intensity calculated by the time-integral of the absolute acceleration-time series over a threshold of 0.025g
+,57,Ia_s ,Deri,Arias Intensity: measure of ground motion intensity calculated by the time-integral of the square of the acceleration-time history
+,58,SIR_s  ,Deri,Shaking Intensity Rate: measure of ground motion intensity calculated by summing the Arias Intensity (5-75%) over the duration (5-75%) of the motion
+,59,cCAV5_s ,Deri,Cumulative CAV5 up to and including the event
+,60,cCAVstd_s  ,Deri,Cumulative CAVstd up to and including the event
+,61,cIa_s  ,Deri,Cumulative Ia up to and including the event
+RESULTS,62,Set  ,Deri,Incremental settlement of the structure or free-field for the specific event
+,63,cSet  ,Deri,Cumulative settlement of the structure or free-field up to and including the event
+,64,Rot  ,Deri,Incremental in-plane rotation of the structure for the specific event
+,65,cRot ,Deri,Cumulative in-plane rotation of the structure up to and including the event
+MISC.,66,References,Info,"References and sources of data (Data Reports, Journal Papers, etc.)"
+,67,Project url,Info,"url of project at NHERI DesignSafe, if any"
+,68,BMA File,Info,"Base motion time history file: Col 0-2: time, East base accelerometer, West base accelerometer"
+,69,SMA File,Info,"Surface motion time history file: Col 0-N: time, accelerometer 1, accelerometer 2,…, accelerometer N"
+,70,SMA Sensor,Info,Names of sensors used to calculate surface motion intensity measures
+,71,DOI,Info,Digital object identifier of source project
+,72,Container,Info,Type of container used to contain the soil in the model test
+,73,ESN,Info,Event sequence number -  the chronological order of the event
+,74,Comments,Info,"Comments on the footing, structure, test, motion, etc."
+,,,,
+,,,Deri = Derived,
+,,,Meas = Measured,
+,,,Info = Informational,
+,,,Infe = Inferred,

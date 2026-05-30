@@ -1,0 +1,12 @@
+model,fold,test_id,event_no,lambda_hat,n_s_hat,PGA_B,PGV_B,Ia_B,observed_class,predicted_class,correct
+proposed_predictive_centroid,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,UCSD-2-AS-4,172,3.4351128074635335,-2.0,0.309,19.1,0.844,mixed,both_beneficial,false
+proposed_predictive_centroid,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,UCSD-3-AS-4,184,3.4351128074635335,-1.9999999999999996,0.291,18.9,0.807,both_detrimental,both_beneficial,false
+proposed_predictive_centroid,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,UCSD-3-SS-4,193,3.478505426185217,-2.0,0.291,18.9,0.807,mixed,both_beneficial,false
+proposed_predictive_centroid,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,LJD03-1-SF-9,50,3.1622776601683795,-1.315624291378681,0.218,29.5,1.062,mixed,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-SDm-5,79,2.073644135332772,-1.746394214301107,0.26,19.0,0.329,mixed,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-SDm-18,90,2.073644135332772,-1.728172710833746,0.02,1.2,0.004,mixed,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-LDm-5,95,2.9832867780352594,-1.6929665541528964,0.26,19.0,0.329,mixed,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-LDm-14,102,3.96232255123179,-1.7921696369854851,0.443,20.1,0.695,both_detrimental,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-LDm-15,103,3.96232255123179,-1.7988947395889066,0.528,15.0,0.694,both_detrimental,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-LDm-18,106,2.9832867780352594,-1.5429902889052165,0.02,1.2,0.004,mixed,both_beneficial,false
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,MAH01-1-LDm-20,107,2.9832867780352594,-1.731903988852325,0.366,19.7,0.681,mixed,both_beneficial,false

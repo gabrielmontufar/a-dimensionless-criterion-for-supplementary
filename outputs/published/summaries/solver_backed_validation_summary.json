@@ -1,0 +1,12 @@
+{
+  "validation_type": "3D solver-backed predictive class validation",
+  "solver": "OpenSeesPy 3.8.0",
+  "tests_used": 194,
+  "accuracy": 0.5103092783505154,
+  "balanced_accuracy": 0.5033766233766234,
+  "false_safe_rate": 0.05154639175257732,
+  "mixed_recall": 0.8701298701298701,
+  "safe_precision": 0.7619047619047619,
+  "status": "pass_solver_backed_screening_gate",
+  "claim_boundary": "Solver-backed class prediction only; not full nonlinear 3D response-history validation."
+}

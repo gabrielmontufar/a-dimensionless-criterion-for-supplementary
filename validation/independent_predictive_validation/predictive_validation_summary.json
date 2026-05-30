@@ -1,0 +1,13 @@
+{
+  "package_version": "demand_polarity_map_v40_submission_reproducible",
+  "validation_type": "independent predictive proxy validation",
+  "leakage_control": "FoRDy observed force, drift, rotation and settlement are withheld until scoring",
+  "tests_used": 194,
+  "proposed_accuracy": 0.5412371134020618,
+  "proposed_balanced_accuracy": 0.5387012987012987,
+  "proposed_false_safe_rate": 0.05670103092783505,
+  "proposed_mixed_recall": 0.8961038961038961,
+  "proposed_safe_precision": 0.7659574468085106,
+  "majority_accuracy": 0.33505154639175255,
+  "claim_boundary": "Predictive class screening layer only; not nonlinear 3D field validation and not independent response-history prediction."
+}

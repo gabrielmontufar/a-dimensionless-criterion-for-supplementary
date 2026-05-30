@@ -1,0 +1,31 @@
+model,fold,tests_used,accuracy,balanced_accuracy,false_safe_rate,mixed_recall,safe_precision
+always_mixed,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,42,0.142857142857,0.333333333333,0,1,1
+always_mixed,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,58,0.310344827586,0.333333333333,0,1,1
+always_mixed,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,32,0.59375,0.333333333333,0,1,1
+always_mixed,Performance of Shallow Foundations,11,0.636363636364,0.5,0,1,1
+always_mixed,Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,48,0.5,0.333333333333,0,1,1
+always_mixed,nan,3,1,1,0,1,1
+flexibility_only,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,42,0.142857142857,0.333333333333,0,1,1
+flexibility_only,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,41,0.19512195122,0.166666666667,0,0.5,1
+flexibility_only,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,32,0.71875,0.52380952381,0,1,1
+flexibility_only,Performance of Shallow Foundations,11,0.636363636364,0.553571428571,0.0909090909091,0.857142857143,0.5
+flexibility_only,Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,48,0.375,0.408333333333,0.1875,0.625,0.25
+flexibility_only,nan,3,1,1,0,1,1
+majority_class,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,42,0.142857142857,0.333333333333,0,1,1
+majority_class,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,58,0.310344827586,0.333333333333,0,1,1
+majority_class,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,32,0.21875,0.333333333333,0,0,1
+majority_class,Performance of Shallow Foundations,11,0.636363636364,0.5,0,1,1
+majority_class,Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,48,0.5,0.333333333333,0,1,1
+majority_class,nan,3,1,1,0,1,1
+proposed_predictive_centroid,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,42,0.309523809524,0.555555555556,0.0714285714286,0.666666666667,0.75
+proposed_predictive_centroid,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,58,0.655172413793,0.584045584046,0.0172413793103,0.944444444444,0.954545454545
+proposed_predictive_centroid,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,32,0.625,0.578947368421,0.21875,0.736842105263,0.461538461538
+proposed_predictive_centroid,Performance of Shallow Foundations,11,0.636363636364,0.5,0,1,1
+proposed_predictive_centroid,Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,48,0.5,0.333333333333,0,1,1
+proposed_predictive_centroid,nan,3,1,1,0,1,1
+spectral_slope_only,Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,42,0.214285714286,0.333333333333,0.785714285714,0,0.214285714286
+spectral_slope_only,Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,41,0.536585365854,0.354166666667,0.365853658537,0.0625,0.583333333333
+spectral_slope_only,NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,32,0.1875,0.333333333333,0.8125,0,0.1875
+spectral_slope_only,Performance of Shallow Foundations,11,0.636363636364,0.5,0,1,1
+spectral_slope_only,Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,48,0.5,0.333333333333,0,1,1
+spectral_slope_only,nan,3,1,1,0,1,1

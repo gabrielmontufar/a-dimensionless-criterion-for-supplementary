@@ -1,0 +1,34 @@
+{
+  "experiment": "decision_value_validation",
+  "isolated_from_submission_workflow": false,
+  "interpretation": "risk-aware decision validation of the screening criterion",
+  "proxy_layer": {
+    "tests": 650,
+    "proposed_false_safe_rate": 0.02,
+    "proposed_net_value_vs_always_flag": -0.11076923076923076,
+    "always_flag_false_safe_rate": 0.0,
+    "always_flag_net_value_vs_always_flag": 0.0,
+    "optimistic_force_rule_false_safe_rate": 0.3384615384615385,
+    "optimistic_force_rule_net_value_vs_always_flag": -3.089230769230769,
+    "false_safe_reduction_vs_optimistic_force_rule": 0.9409090909090909,
+    "positive_net_value_vs_always_flag_loss_ratios": [
+      1.0,
+      2.0,
+      3.0
+    ]
+  },
+  "predictive_layer": {
+    "tests": 194,
+    "proposed_false_safe_rate": 0.05670103092783505,
+    "proposed_net_value_vs_always_flag": -0.19587628865979384,
+    "always_mixed_net_value_vs_always_flag": 0.0,
+    "false_safe_reduction_vs_spectral_slope_only": 0.8643772638617999
+  },
+  "selective_screening": {
+    "best_coverage_scored_by_map": 0.5,
+    "best_false_safe_rate": 0.013846153846153847,
+    "best_net_value_vs_always_flag": -0.061538461538461514
+  },
+  "decision_interpretation": "The proxy map strongly rejects unsafe optimistic force-reduction screening, but it does not dominate the fully conservative always-flag policy when false-safe loss is set very high.",
+  "claim_boundary": "This validates risk reduction and decision tradeoffs under asymmetric loss, not nonlinear 3D response prediction."
+}

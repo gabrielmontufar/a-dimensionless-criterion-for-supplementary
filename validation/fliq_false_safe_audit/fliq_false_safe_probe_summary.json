@@ -1,0 +1,63 @@
+{
+  "dataset": "FLIQ foundation and ground performance in liquefaction experiments",
+  "doi": "10.4231/D3M61BQ73",
+  "raw_rows": 405,
+  "structural_rows_usable": 241,
+  "apparent_acceleration_benefit_cases": 3,
+  "settlement_rotation_penalty_cases": 80,
+  "acceleration_only_false_safe_cases": 3,
+  "acceleration_only_false_safe_rate_all": 0.012448132780082987,
+  "acceleration_only_false_safe_rate_among_apparent_benefit": 1.0,
+  "response_thresholds": {
+    "cSet_abs_q75_mm": 373.6,
+    "cRot_abs_q75_rad": 0.0112
+  },
+  "baseline_always_flag": {
+    "n": 241,
+    "flagged_fraction": 1.0,
+    "released_fraction": 0.0,
+    "false_safe_rate_all": 0.0,
+    "false_safe_rate_released": 0.0,
+    "unsafe_recall": 1.0,
+    "safe_precision": 0.0
+  },
+  "baseline_intensity_only": {
+    "n": 241,
+    "flagged_fraction": 0.24896265560165975,
+    "released_fraction": 0.7510373443983402,
+    "false_safe_rate_all": 0.17012448132780084,
+    "false_safe_rate_released": 0.2265193370165746,
+    "unsafe_recall": 0.4875,
+    "safe_precision": 0.7734806629834254
+  },
+  "baseline_structure_only": {
+    "n": 241,
+    "flagged_fraction": 0.37344398340248963,
+    "released_fraction": 0.6265560165975104,
+    "false_safe_rate_all": 0.2157676348547718,
+    "false_safe_rate_released": 0.3443708609271523,
+    "unsafe_recall": 0.35,
+    "safe_precision": 0.6556291390728477
+  },
+  "proposed_pre_response_guardrail": {
+    "n": 241,
+    "flagged_fraction": 0.6058091286307054,
+    "released_fraction": 0.3941908713692946,
+    "false_safe_rate_all": 0.08713692946058091,
+    "false_safe_rate_released": 0.22105263157894736,
+    "unsafe_recall": 0.7375,
+    "safe_precision": 0.7789473684210526
+  },
+  "selected_guardrail_threshold": {
+    "n": 241,
+    "flagged_fraction": 0.6058091286307054,
+    "released_fraction": 0.3941908713692946,
+    "false_safe_rate_all": 0.08713692946058091,
+    "false_safe_rate_released": 0.22105263157894736,
+    "unsafe_recall": 0.7375,
+    "safe_precision": 0.7789473684210526,
+    "quantile_threshold": 0.2,
+    "risk_score_threshold": -2.1857741261370434
+  },
+  "claim_boundary": "FLIQ is an external liquefaction-oriented false-safe audit. It tests whether apparent acceleration-side benefit can coexist with settlement or rotation penalties; it is not nonlinear 3D response-history validation."
+}

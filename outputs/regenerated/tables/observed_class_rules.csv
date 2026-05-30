@@ -1,0 +1,4 @@
+rule,definition
+both_beneficial,observed force ratio < 1 and measured displacement severity <= 1
+mixed,observed force ratio < 1 and measured displacement severity > 1
+both_detrimental,observed force ratio >= 1 and measured displacement severity > 1

@@ -1,0 +1,5 @@
+HASH_CHECK: PASS (42 files)
+NO_LOCAL_PATHS_OR_LEGACY_LABELS: PASS
+{'DOCX_STYLE_CHECK': 'PASS', 'checks': {'docx_exists': True, 'long_heading_count_zero': True, 'table_v2_absent': True, 'pending_marker_absent': True, 'legacy_version_labels_absent': True, 'omml_equations_present': True}}
+Wrote outputs/summaries/REPRODUCIBILITY_REPORT.json
+REPRODUCIBILITY_FAST_CHECK: PASS

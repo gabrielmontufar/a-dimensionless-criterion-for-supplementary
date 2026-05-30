@@ -1,0 +1,9 @@
+guardrail,abstained_or_escalated_cases,abstention_rate,released_before,released_after,false_safe_before,false_safe_after,false_safe_rate_before_all_cases,false_safe_rate_after_all_cases,false_safe_reduction,true_safe_released_before,true_safe_released_after,safe_release_retention,cost_per_false_safe_removed
+release_low_margin,25,0.038461538461538464,42,17,13,0,0.02,0.0,1.0,29,17,0.5862068965517241,1.9230769230769231
+release_low_margin_or_high_lambda,25,0.038461538461538464,42,17,13,0,0.02,0.0,1.0,29,17,0.5862068965517241,1.9230769230769231
+low_margin,556,0.8553846153846154,42,30,13,6,0.02,0.009230769230769232,0.5384615384615384,29,24,0.8275862068965517,79.42857142857143
+low_margin_or_high_lambda,582,0.8953846153846153,42,30,13,6,0.02,0.009230769230769232,0.5384615384615384,29,24,0.8275862068965517,83.14285714285714
+none,0,0.0,42,42,13,13,0.02,0.02,0.0,29,29,1.0,0.0
+release_high_lambda,0,0.0,42,42,13,13,0.02,0.02,0.0,29,29,1.0,0.0
+release_displacement_pred_high,0,0.0,42,42,13,13,0.02,0.02,0.0,29,29,1.0,0.0
+high_lambda,70,0.1076923076923077,42,42,13,13,0.02,0.02,0.0,29,29,1.0,70.0

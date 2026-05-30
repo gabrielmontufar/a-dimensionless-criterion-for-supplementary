@@ -1,0 +1,65 @@
+[
+    {
+        "dataset":  "FoRDy",
+        "doi":  "10.13019/3rqyd929",
+        "source_path":  "/PRJ-3836/1_MASTERSHEET AND DOCUMENTATION/2 FoRDy_Mastersheet_v1.0.0_20180821_2322.csv",
+        "local_file":  "FoRDy_Mastersheet_v1.0.0_20180821_2322.csv",
+        "bytes":  525782,
+        "sha256":  "E87EFAE281C326F95AB8908887DD2A4CBB6D35E5235A445188C2AACD31F2597B",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/dbd12bc7-56eb-4150-bf39-51b63f98f864"
+    },
+    {
+        "dataset":  "FoRDy",
+        "doi":  "10.13019/3rqyd929",
+        "source_path":  "/PRJ-3836/1_MASTERSHEET AND DOCUMENTATION/2 FoRDy_Mastersheet_v1.0.0_20180821_2322.xlsx",
+        "local_file":  "FoRDy_Mastersheet_v1.0.0_20180821_2322.xlsx",
+        "bytes":  273732,
+        "sha256":  "9FA9148AAFEBE7E9106CFA2E426B26D3DFB6AD13CCA8D9069C2F0EE269DD3ECB",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/8efd2454-bb17-4f05-aea1-f46507c47a44"
+    },
+    {
+        "dataset":  "FoRDy",
+        "doi":  "10.13019/3rqyd929",
+        "source_path":  "/PRJ-3836/1_MASTERSHEET AND DOCUMENTATION/Column_And_Row_Definitions",
+        "local_file":  "FoRDy_Column_And_Row_Definitions",
+        "bytes":  486537,
+        "sha256":  "D8C530E8CEDBB684CDA83330746C78BACCF42F2ECBFAAC0F875F5C83DC806A84",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/8ec9d4ab-bd78-43ae-a1d1-46e5ea87fe8e"
+    },
+    {
+        "dataset":  "FoRCy",
+        "doi":  "10.13019/t0cq-qf64",
+        "source_path":  "/PRJ-2122/MASTERSHEET AND DOCUMENTATION/2a_The_FoRCy_Mastersheet(formatted for people with excel).xlsx",
+        "local_file":  "FoRCy_Mastersheet_people.xlsx",
+        "bytes":  295166,
+        "sha256":  "DA8D38E9BE8699571F9B743D190A5E274AD5255747941F10F2301FB810C7C120",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/d6fdf0bb-b713-4842-9430-6d5f69e9a450"
+    },
+    {
+        "dataset":  "FoRCy",
+        "doi":  "10.13019/t0cq-qf64",
+        "source_path":  "/PRJ-2122/MASTERSHEET AND DOCUMENTATION/2b_The_FoRCy_Mastersheet(formatted for others).csv",
+        "local_file":  "FoRCy_Mastersheet_others.csv",
+        "bytes":  705102,
+        "sha256":  "C8EB80933E3A99510454E23E2CE05634D7D4C41CF277485B7DF8A3EDAA376C71",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/1427184e-cb73-46ec-851e-97885e1a6ed2"
+    },
+    {
+        "dataset":  "FoRCy",
+        "doi":  "10.13019/t0cq-qf64",
+        "source_path":  "/PRJ-2122/MASTERSHEET AND DOCUMENTATION/3a_FoRCy-Column Definitions.xlsx",
+        "local_file":  "FoRCy_Column_Definitions.xlsx",
+        "bytes":  33052,
+        "sha256":  "E57BFF5169DB4A93EFCB79B5AA8CFD7E0A7835FDB2492135964288AD40311813",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/99208ffb-f652-4611-ac73-3ef123b3ccac"
+    },
+    {
+        "dataset":  "FoRCy",
+        "doi":  "10.13019/t0cq-qf64",
+        "source_path":  "/PRJ-2122/MASTERSHEET AND DOCUMENTATION/3b_FoRCy-Column Definitions.pdf",
+        "local_file":  "FoRCy_Column_Definitions.pdf",
+        "bytes":  428113,
+        "sha256":  "BC782FD77765B1A3ED39F721FBE12CEAE0FC6A90ED1F8F463597D21D407FC253",
+        "download_href":  "https://designsafe-download01.tacc.utexas.edu/download/a2eaa266-03d2-4313-9f99-9a376c692abe"
+    }
+]

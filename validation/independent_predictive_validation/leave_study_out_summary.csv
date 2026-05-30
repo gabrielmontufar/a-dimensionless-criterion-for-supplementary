@@ -1,0 +1,7 @@
+fold,model,tests_used,accuracy,balanced_accuracy,false_safe_rate,mixed_recall,safe_precision,status
+Analytical and Experimental Development of Bridges with Foundations Allowed to Uplift During Earthquakes,proposed_predictive_centroid,42,0.30952380952380953,0.5555555555555555,0.07142857142857142,0.6666666666666666,0.75,baseline_or_diagnostic
+Innovative Economical Foundations with Improved Performance that is Less Sensitive to Site Conditions,proposed_predictive_centroid,58,0.6551724137931034,0.584045584045584,0.017241379310344827,0.9444444444444444,0.9545454545454546,pass_screening_safety_partial_accuracy
+NEESR-CR: Design of Soil and Structure Compatible Yielding to Improve System Performance,proposed_predictive_centroid,32,0.625,0.5789473684210527,0.21875,0.7368421052631579,0.46153846153846156,baseline_or_diagnostic
+Performance of Shallow Foundations,proposed_predictive_centroid,11,0.6363636363636364,0.5,0.0,1.0,0.0,pass_screening_safety_partial_accuracy
+Soil-Foundation-Structure Systems Beyond Conventional Seismic Failure Thresholds: Application to New or Existing Structures and Monuments,proposed_predictive_centroid,48,0.5,0.3333333333333333,0.0,1.0,0.0,pass_screening_safety_partial_accuracy
+nan,proposed_predictive_centroid,3,1.0,1.0,0.0,1.0,0.0,pass_screening_safety_partial_accuracy

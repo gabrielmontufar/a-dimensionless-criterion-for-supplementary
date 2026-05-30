@@ -1,0 +1,5 @@
+claim,status,evidence,limitation
+FoRDy/FoRCy proxy class validation has been executed,ALLOWED WITH BOUNDARY,Downloaded public DesignSafe mastersheets were parsed offline; 591 proxy rows were classified and evaluated.,"This is experimental polarity/proxy class validation, not nonlinear 3D site-specific field validation."
+FoRCy passes the proxy class-validation gate,ALLOWED,FoRCy accuracy is above 0.85 and false-safe rate is below 0.10 in the reproduced metrics.,Mixed precision is just below the nominal 0.80 target and must be reported numerically.
+FoRDy alone passes the proxy class-validation gate,DISALLOWED,FoRDy accuracy is about 0.756 and mixed precision about 0.603.,Use FoRDy as partial dynamic evidence and discuss its weaker proxy agreement.
+Garner is positive nonlinear 3D validation,DISALLOWED,Prior Garner validation-falsification gates failed for predictive nonlinear 3D field validation.,Retain Garner only as falsification/instrumentation audit.
