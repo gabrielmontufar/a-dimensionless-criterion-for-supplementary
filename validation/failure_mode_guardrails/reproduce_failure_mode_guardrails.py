@@ -217,10 +217,46 @@ def plot_failure_map(df: pd.DataFrame) -> None:
 def plot_guardrail(summary: pd.DataFrame) -> None:
     FIG.mkdir(parents=True, exist_ok=True)
     sub = summary[summary["guardrail"] != "none"].copy()
-    fig, ax = plt.subplots(figsize=(7.0, 4.5), dpi=200)
-    ax.scatter(sub["abstention_rate"], sub["false_safe_rate_after_all_cases"], s=80)
-    for _, row in sub.iterrows():
-        ax.annotate(row["guardrail"], (row["abstention_rate"], row["false_safe_rate_after_all_cases"]), fontsize=7)
+    fig, ax = plt.subplots(figsize=(7.4, 4.8), dpi=200)
+    label_map = {
+        "release_low_margin": "release low margin",
+        "release_low_margin_or_high_lambda": "release low margin or high lambda",
+        "low_margin": "low margin",
+        "low_margin_or_high_lambda": "low margin or high lambda",
+    }
+    for idx, (_, row) in enumerate(sub.iterrows(), start=1):
+        guardrail = row["guardrail"]
+        ax.scatter(
+            row["abstention_rate"],
+            row["false_safe_rate_after_all_cases"],
+            s=120,
+            color="#1f77b4",
+            edgecolor="white",
+            linewidth=0.7,
+            label=f"{idx}. {label_map.get(guardrail, guardrail.replace('_', ' '))}",
+            zorder=3,
+        )
+        ax.text(
+            row["abstention_rate"],
+            row["false_safe_rate_after_all_cases"],
+            str(idx),
+            color="white",
+            fontsize=7,
+            ha="center",
+            va="center",
+            fontweight="bold",
+            zorder=4,
+        )
+    ax.margins(x=0.08, y=0.15)
+    ax.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.20),
+        ncol=2,
+        fontsize=7,
+        frameon=True,
+        title="Guardrail rule",
+        title_fontsize=8,
+    )
     ax.set_xlabel("Abstention/escalation rate")
     ax.set_ylabel("False-safe rate after guardrail")
     ax.set_title("Guardrail tradeoff for map releases")
